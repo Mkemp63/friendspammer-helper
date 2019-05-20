@@ -20,9 +20,9 @@ import com.mongodb.client.MongoDatabase;
 public class MongoSaver {
 
     public static boolean saveEmail(String to, String from, String subject, String text, Boolean html) {
-        String userName = "spammer";
-        String password = "hamspam";
-        String database = "friendspammer";
+        String userName = "admin";
+        String password = "admin";
+        String database = "opdracht02";
 
         MongoCredential credential = MongoCredential.createCredential(userName, database, password.toCharArray());
 
